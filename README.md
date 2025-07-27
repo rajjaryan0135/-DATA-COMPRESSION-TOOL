@@ -1,5 +1,10 @@
 # -DATA-COMPRESSION-TOOL
-
+ COMPANY: CODTECH IT SOLUTIONS PVT.LTD
+ *NAME: RAJARYAN 
+ INTERN ID: CT04DZ227
+ DOMAIN: C LANGUAGE
+ DURATION: 4 WEEKS 
+ MENTOR: NEELA SANTOSH KUMAR
 This C program is designed to perform simple data compression using the Run-Length Encoding (RLE) algorithm. It is divided into two major components: one that captures and writes user input to a file, and another that compresses that file's contents into a separate file using RLE logic. The program adopts a modular approach, making the functions organized and easy to manage.
 
 The first function, generateFile(), handles file creation and input capture. It takes the name of a file as input, opens it in write mode, and prompts the user to enter a line of text. This input can include spaces and special characters. After the user enters the text, the function removes any trailing newline character and writes the cleaned content to the file. If the file cannot be opened, an error message is displayed. Once the data is successfully saved, the file is closed properly to ensure no data loss.
