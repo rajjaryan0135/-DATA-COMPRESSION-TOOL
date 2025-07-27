@@ -14,3 +14,5 @@ The second function, runLengthCompress(), performs the core logic of the compres
 The main() function orchestrates the entire process. It sets up the input and output file names and ensures that the input buffer is cleared before taking user input to avoid unintended behavior. It then calls the file creation function to accept and store the user's content, followed by the compression function to apply RLE on the stored data.
 
 Overall, this program effectively demonstrates how repeated patterns in a text can be compressed using a straightforward algorithm. The implementation highlights important concepts such as file handling, character-level processing, conditional logic, and memory-efficient text manipulation. The use of Run-Length Encoding ensures that sequences of repeating characters are represented more compactly, reducing the file size in cases of redundancy. This task serves as a solid introduction to data compression and the practical use of algorithms for optimizing storage and transmission.
+#OUTPUT: 
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/ca760758-fdbf-4c01-a707-c4ba538dfc86" />
